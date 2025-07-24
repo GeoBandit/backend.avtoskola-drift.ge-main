@@ -1,0 +1,38 @@
+{
+  "name": "tb-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+ "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+  
+
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "are-we-there-yet": "^4.0.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "gauge": "^5.0.2",
+    "glob": "^11.0.1",
+    "inflight": "^1.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.1",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.9",
+    "npmlog": "^7.0.1",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
