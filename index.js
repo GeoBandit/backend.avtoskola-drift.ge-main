@@ -12,7 +12,6 @@ dotenv.config({ path: path.join(__dirname, ".env") });
 
 // Initialize Express app
 const app = express();
-const cors = require("cors");
 
 // Middleware
 app.use(
