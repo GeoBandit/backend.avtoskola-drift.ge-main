@@ -19,8 +19,7 @@ app.use(
    origin: [
   "https://new-traffic-frontend.vercel.app",
   "http://localhost:3000",
-  "https://avtoskola-varketilshi-six.vercel.app"
-  "https://fronend-avtoskola-drift-ge-main.vercel.app"
+  "https://avtoskola-varketilshi-six.vercel.app",
 ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
